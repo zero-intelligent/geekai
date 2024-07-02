@@ -111,7 +111,7 @@ const leftBoxHeight = ref(window.innerHeight - 105)
 const rightBoxHeight = ref(window.innerHeight - 85)
 
 const prompt = ref("")
-const text = ref(`# Geek-AI 助手
+const text = ref(`# Talk-AI 助手
 
 - 完整的开源系统，前端应用和后台管理系统皆可开箱即用。
 - 基于 Websocket 实现，完美的打字机体验。
@@ -333,7 +333,7 @@ const downloadImage = () => {
   image.onload = function () {
     context.drawImage(image, 0, 0)
     const a = document.createElement('a')
-    a.download = "geek-ai-xmind.png"
+    a.download = "Talk-AI-xmind.png"
     a.href = canvas.toDataURL(`image/png`)
     a.click()
 

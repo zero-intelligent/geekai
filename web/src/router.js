@@ -1,5 +1,5 @@
 // * +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-// * Copyright 2023 The Geek-AI Authors. All rights reserved.
+// * Copyright 2023 The Talk-AI Authors. All rights reserved.
 // * Use of this source code is governed by a Apache-2.0 license
 // * that can be found in the LICENSE file.
 // * @Author yangjian102621@163.com
@@ -105,7 +105,7 @@ const routes = [
     {
         path: '/admin/login',
         name: 'admin-login',
-        meta: {title: 'Geek-AI 控制台登录'},
+        meta: {title: 'Talk-AI 控制台登录'},
         component: () => import('@/views/admin/Login.vue'),
     },
     {
@@ -113,7 +113,7 @@ const routes = [
         path: '/admin',
         redirect: '/admin/dashboard',
         component: () => import("@/views/admin/Home.vue"),
-        meta: {title: 'Geek-AI 控制台'},
+        meta: {title: 'Talk-AI 控制台'},
         children: [
             {
                 path: '/admin/dashboard',
@@ -206,7 +206,7 @@ const routes = [
     {
         name: 'mobile',
         path: '/mobile',
-        meta: {title: 'Geek-AI v4.0'},
+        meta: {title: 'Talk-AI v4.0'},
         component: () => import('@/views/mobile/Home.vue'),
         redirect: '/mobile/index',
         children: [

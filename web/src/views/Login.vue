@@ -65,7 +65,7 @@ import ResetPass from "@/components/ResetPass.vue";
 import {showMessageError} from "@/utils/dialog";
 
 const router = useRouter();
-const title = ref('Geek-AI');
+const title = ref('Talk-AI');
 const username = ref(process.env.VUE_APP_USER);
 const password = ref(process.env.VUE_APP_PASS);
 const showResetPass = ref(false)

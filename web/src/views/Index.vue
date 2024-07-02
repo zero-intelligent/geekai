@@ -7,7 +7,7 @@
           :ellipsis="false"
       >
         <div class="menu-item">
-          <el-image :src="logo" alt="Geek-AI"/>
+          <el-image :src="logo" alt="Talk-AI"/>
           <div class="title">{{ title }}</div>
         </div>
         <div class="menu-item">
@@ -61,7 +61,7 @@ if (isMobile()) {
   router.push("/mobile")
 }
 
-const title = ref("Geek-AI 创作系统")
+const title = ref("Talk-AI 创作系统")
 const logo = ref("/images/logo.png")
 const slogan = ref("我辈之人，先干为敬，陪您先把 AI 用起来")
 // const size = Math.max(window.innerWidth * 0.5, window.innerHeight * 0.8)

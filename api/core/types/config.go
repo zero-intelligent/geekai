@@ -1,7 +1,7 @@
 package types
 
 // * +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-// * Copyright 2023 The Geek-AI Authors. All rights reserved.
+// * Copyright 2023 The Talk-AI Authors. All rights reserved.
 // * Use of this source code is governed by a Apache-2.0 license
 // * that can be found in the LICENSE file.
 // * @Author yangjian102621@163.com
@@ -123,7 +123,7 @@ type RedisConfig struct {
 }
 
 // LicenseKey 存储许可证书的 KEY
-const LicenseKey = "Geek-AI-License"
+const LicenseKey = "Talk-AI-License"
 
 type License struct {
 	Key       string `json:"key"`        // 许可证书密钥

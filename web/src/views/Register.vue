@@ -183,7 +183,7 @@ import {validateEmail, validateMobile} from "@/utils/validate";
 import {showMessageError, showMessageOK} from "@/utils/dialog";
 
 const router = useRouter();
-const title = ref('Geek-AI 用户注册');
+const title = ref('Talk-AI 用户注册');
 const logo = ref("/images/logo")
 const data = ref({
   username: '',

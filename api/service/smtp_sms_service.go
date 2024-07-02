@@ -1,7 +1,7 @@
 package service
 
 // * +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-// * Copyright 2023 The Geek-AI Authors. All rights reserved.
+// * Copyright 2023 The Talk-AI Authors. All rights reserved.
 // * Use of this source code is governed by a Apache-2.0 license
 // * that can be found in the LICENSE file.
 // * @Author yangjian102621@163.com
@@ -28,8 +28,8 @@ func NewSmtpService(appConfig *types.AppConfig) *SmtpService {
 }
 
 func (s *SmtpService) SendVerifyCode(to string, code int) error {
-	subject := "Geek-AI 注册验证码"
-	body := fmt.Sprintf("您正在注册 Geek-AI 助手账户，注册验证码为 %d，请不要告诉他人。如非本人操作，请忽略此邮件。", code)
+	subject := "Talk-AI 注册验证码"
+	body := fmt.Sprintf("您正在注册 Talk-AI 助手账户，注册验证码为 %d，请不要告诉他人。如非本人操作，请忽略此邮件。", code)
 
 	auth := smtp.PlainAuth("", s.config.From, s.config.Password, s.config.Host)
 	if s.config.UseTls {
