@@ -37,7 +37,7 @@ WeChatBot = false
     Username = ""
     Password = ""
     Domain = "api.smsbao.com"
-    Sign = "【极客学长】"
+    Sign = "【talkme】"
     CodeTemplate = "您的验证码是{code}。5分钟有效，若非本人操作，请忽略本短信。"
 
 [OSS]
@@ -119,7 +119,7 @@ WeChatBot = false
   UseTls = false
   Host = "smtp.163.com"
   Port = 25
-  AppName = "极客学长"
+  AppName = "talkme"
   From = "test@163.com"  # 发件邮箱人地址
   Password = ""  #邮箱 stmp 服务授权码
 
