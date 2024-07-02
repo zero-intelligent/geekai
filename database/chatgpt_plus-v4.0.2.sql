@@ -503,7 +503,7 @@ CREATE TABLE `chatgpt_users` (
 --
 
 INSERT INTO `chatgpt_users` (`id`, `username`, `nickname`, `password`, `avatar`, `salt`, `power`, `expired_time`, `status`, `chat_config_json`, `chat_roles_json`, `chat_models_json`, `last_login_at`, `vip`, `last_login_ip`, `created_at`, `updated_at`) VALUES
-    (4, '18575670125', '极客学长@830270', 'ccc3fb7ab61b8b5d096a4a166ae21d121fc38c71bbd1be6173d9ab973214a63b', 'http://localhost:5678/static/upload/2024/2/1708682650912429.png', 'ueedue5l', 9384, 1717292086, 1, '{\"api_keys\":{\"Azure\":\"\",\"ChatGLM\":\"\",\"OpenAI\":\"\"}}', '[\"red_book\",\"gpt\",\"programmer\",\"seller\"]', '[1,11]', 1711698298, 1, '::1', '2023-06-12 16:47:17', '2024-03-29 15:44:58');
+    (4, '18575670125', 'Talker@830270', 'ccc3fb7ab61b8b5d096a4a166ae21d121fc38c71bbd1be6173d9ab973214a63b', 'http://localhost:5678/static/upload/2024/2/1708682650912429.png', 'ueedue5l', 9384, 1717292086, 1, '{\"api_keys\":{\"Azure\":\"\",\"ChatGLM\":\"\",\"OpenAI\":\"\"}}', '[\"red_book\",\"gpt\",\"programmer\",\"seller\"]', '[1,11]', 1711698298, 1, '::1', '2023-06-12 16:47:17', '2024-03-29 15:44:58');
 
 -- --------------------------------------------------------
 

@@ -113,7 +113,7 @@ func (h *PaymentHandler) DoPay(c *gin.Context) {
 			TotalFee:     fmt.Sprintf("%f", order.Amount),
 			Title:        order.Subject,
 			NotifyURL:    h.App.Config.HuPiPayConfig.NotifyURL,
-			WapName:      "极客学长",
+			WapName:      "Talker",
 		}
 		r, err := h.huPiPayService.Pay(params)
 		if err != nil {
@@ -332,7 +332,7 @@ func (h *PaymentHandler) Mobile(c *gin.Context) {
 			NotifyURL:    notifyURL,
 			ReturnURL:    returnURL,
 			CallbackURL:  returnURL,
-			WapName:      "极客学长",
+			WapName:      "Talker",
 		}
 		r, err := h.huPiPayService.Pay(params)
 		if err != nil {

@@ -97,7 +97,7 @@ func (h *UserHandler) Register(c *gin.Context) {
 	user := model.User{
 		Username:   data.Username,
 		Password:   utils.GenPassword(data.Password, salt),
-		Nickname:   fmt.Sprintf("极客学长@%d", utils.RandomNumber(6)),
+		Nickname:   fmt.Sprintf("Talker@%d", utils.RandomNumber(6)),
 		Avatar:     "/images/avatar/user.png",
 		Salt:       salt,
 		Status:     true,
