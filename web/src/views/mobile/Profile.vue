@@ -164,7 +164,7 @@ import {getMobileTheme} from "@/store/system";
 
 const form = ref({
   username: 'GeekMaster',
-  nickname: 'Talker@001',
+  nickname: 'talkme@001',
   mobile: '1300000000',
   avatar: '',
   power: 0,

@@ -543,10 +543,10 @@ CREATE TABLE `chatgpt_users` (
 --
 
 INSERT INTO `chatgpt_users` (`id`, `username`, `nickname`, `password`, `avatar`, `salt`, `power`, `expired_time`, `status`, `chat_config_json`, `chat_roles_json`, `chat_models_json`, `last_login_at`, `vip`, `last_login_ip`, `created_at`, `updated_at`) VALUES
-(4, '18575670125', 'Talker@830270', 'ccc3fb7ab61b8b5d096a4a166ae21d121fc38c71bbd1be6173d9ab973214a63b', 'http://localhost:5678/static/upload/2024/5/1715651569509929.png', 'ueedue5l', 5054, 1717292086, 1, '{\"api_keys\":{\"Azure\":\"\",\"ChatGLM\":\"\",\"OpenAI\":\"\"}}', '[\"red_book\",\"gpt\",\"seller\",\"artist\",\"lu_xun\",\"girl_friend\",\"psychiatrist\",\"teacher\",\"programmer\",\"test\"]', '[1,11]', 1714464552, 1, '::1', '2023-06-12 16:47:17', '2024-05-14 09:52:52'),
-(5, 'yangjian102621@gmail.com', 'Talker@486041', '75d1a22f33e1ffffb7943946b6b8d5177d5ecd685d3cef1b468654038b0a8c22', '/images/avatar/user.png', '2q8ugxzk', 100, 0, 1, '', '[\"gpt\",\"programmer\"]', '[11,7,1,10,12,19,18,17,3]', 0, 0, '', '2024-04-23 09:17:26', '2024-04-23 09:17:26'),
-(8, 'yangjian102623@gmail.com', 'Talker@714931', 'f8f0e0abf146569217273ea0712a0f9b6cbbe7d943a1d9bd5f91c55e6d8c05d1', '/images/avatar/user.png', 'geuddq7f', 100, 0, 1, '', '[\"gpt\"]', '[11,7,1,10,12,19,18,17,3]', 0, 0, '', '2024-04-26 15:19:28', '2024-04-26 15:19:28'),
-(9, '1234567', 'Talker@604526', '858e2afec79e1d6364f4567f945f2310024896d9aa45dd944efa95a0c31e4d08', '/images/avatar/user.png', '00qawlos', 100, 0, 1, '', '[\"gpt\"]', '[11,7,1,10,12,19,18,17,3]', 0, 0, '', '2024-04-26 15:21:06', '2024-04-26 15:21:06');
+(4, '18575670125', 'talkme@830270', 'ccc3fb7ab61b8b5d096a4a166ae21d121fc38c71bbd1be6173d9ab973214a63b', 'http://localhost:5678/static/upload/2024/5/1715651569509929.png', 'ueedue5l', 5054, 1717292086, 1, '{\"api_keys\":{\"Azure\":\"\",\"ChatGLM\":\"\",\"OpenAI\":\"\"}}', '[\"red_book\",\"gpt\",\"seller\",\"artist\",\"lu_xun\",\"girl_friend\",\"psychiatrist\",\"teacher\",\"programmer\",\"test\"]', '[1,11]', 1714464552, 1, '::1', '2023-06-12 16:47:17', '2024-05-14 09:52:52'),
+(5, 'yangjian102621@gmail.com', 'talkme@486041', '75d1a22f33e1ffffb7943946b6b8d5177d5ecd685d3cef1b468654038b0a8c22', '/images/avatar/user.png', '2q8ugxzk', 100, 0, 1, '', '[\"gpt\",\"programmer\"]', '[11,7,1,10,12,19,18,17,3]', 0, 0, '', '2024-04-23 09:17:26', '2024-04-23 09:17:26'),
+(8, 'yangjian102623@gmail.com', 'talkme@714931', 'f8f0e0abf146569217273ea0712a0f9b6cbbe7d943a1d9bd5f91c55e6d8c05d1', '/images/avatar/user.png', 'geuddq7f', 100, 0, 1, '', '[\"gpt\"]', '[11,7,1,10,12,19,18,17,3]', 0, 0, '', '2024-04-26 15:19:28', '2024-04-26 15:19:28'),
+(9, '1234567', 'talkme@604526', '858e2afec79e1d6364f4567f945f2310024896d9aa45dd944efa95a0c31e4d08', '/images/avatar/user.png', '00qawlos', 100, 0, 1, '', '[\"gpt\"]', '[11,7,1,10,12,19,18,17,3]', 0, 0, '', '2024-04-26 15:21:06', '2024-04-26 15:21:06');
 
 -- --------------------------------------------------------
 
