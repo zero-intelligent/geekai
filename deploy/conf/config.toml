@@ -20,7 +20,7 @@ WeChatBot = false
   DB = 0
 
 [ApiConfig]
-  ApiURL = "http://service.r9it.com:9001"
+  ApiURL = ""
   AppId = ""
   Token = ""
 
